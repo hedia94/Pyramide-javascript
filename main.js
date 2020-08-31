@@ -10,7 +10,7 @@ function bonjour(report){
             level = '';
             for(var j = 0; j < width; j++) {
                 if(j < midpoint-i || j > midpoint+i) {
-                    level += '.';
+                    level += ' ';
                 } else {
                     level += '#';
                 }
